@@ -34,6 +34,6 @@ struct CalendarCell: View {
             return MonthStruct(monthType: MonthType.Next, dayInt: day)
         }
         let day = count - start
-        return MonthStruct(monthType: MonthType.Current, dayInt: count - start)
+        return MonthStruct(monthType: MonthType.Current, dayInt: day)
     }
 }
